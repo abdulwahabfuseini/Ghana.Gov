@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .FlexBox {
+    @apply flex items-center justify-between;
+  }
+  .Flex {
+    @apply flex items-center gap-4 justify-center;
+  }
+  .GridBox {
+    @apply grid place-items-center;
+  }
+  .Nav {
+    @apply w-full  flex items-center justify-between px-4 md:justify-center sm:gap-[5.4vw]  lg:max-w-7xl  lg:mx-auto;
+  }
+  .NavItem {
+    @apply flex items-center font-semibold text-sm lg:text-base;
+  }
+  .activeTab {
+    @apply border-b-2 lg:border-b-[3px] pb-2 border-b-yellow-300 relative text-base font-semibold;
+  }
+  .tab {
+    @apply relative text-base font-semibold pb-3;
+  }
+  .activeBtn {
+    @apply text-base border-l-4 border-l-yellow-400  text-black font-semibold px-2;
+  }
+  .btn {
+    @apply text-base  text-gray-500  font-bold;
+  }
+  .activeDirectory {
+    @apply text-base font-semibold;
+  }
+  .directory {
+    @apply text-base  text-gray-600  font-semibold;
+  }
+  .active{
+   @apply text-red-400 text-2xl
+  }
+
+}
+
