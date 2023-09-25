@@ -15,7 +15,7 @@ const Apply = () => {
         <img
           src="/images/favicon.png"
           alt="logo"
-          className="absolute h-24 p-4 bg-white rounded-full -top-12"
+          className="absolute h-24 px-4 py-5 bg-white rounded-full -top-10"
         />
         <Link to="/register">
           <button className="absolute text-lg font-semibold top-4 right-5">

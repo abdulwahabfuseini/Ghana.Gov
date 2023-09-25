@@ -24,7 +24,7 @@ const Ministries = () => {
           </h1>
         </div>
       </div>
-      <div className="grid w-full h-full max-w-2xl gap-8 px-4 py-24 mx-auto sm:grid-cols-3 sm:max-w-6xl place-content-start">
+      <div className="grid w-full h-full max-w-2xl gap-8 px-4 py-24 mx-auto mb-20 sm:grid-cols-3 sm:max-w-6xl place-content-start">
         <div className="hidden col-span-1 sm:block">
           <h1 className="pb-3 text-xl font-bold border-b-4 border-gray-200">
             {ministries?.ministry}
