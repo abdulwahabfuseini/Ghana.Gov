@@ -28,11 +28,11 @@ const Category = () => {
             {category?.title}
           </h1>
           <div className="grid py-6 place-content-start place-items-start gap-y-6">
-            <img
+            {/* <img
               src={`/images/ministriesLogo/${category?.logo}`}
               alt="logo"
               className="object-contain h-16"
-            />
+            /> */}
           </div>
         </div>
         <div className="col-span-2 ">

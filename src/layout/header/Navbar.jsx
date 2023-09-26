@@ -21,7 +21,7 @@ const Navbar = () => {
               className="relative py-7 px-6 uppercase before:contents() before:left-0 before:w-0 before:h-1.5 before:bg-yellow-400 before:absolute before:top-0 hover:before:w-full"
               key={index}
             >
-              <NavLink to={navItem.path} ClassName="">{navItem.display}</NavLink>
+              <Link to={navItem.path} ClassName="">{navItem.display}</Link>
             </li>
           ))}
         </ul>

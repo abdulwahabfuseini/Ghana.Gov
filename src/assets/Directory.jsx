@@ -2,7 +2,7 @@ export const MinistriesInfo = [
   {
     id: 1,
     ministry: "Ghana Revenue Authority",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [
@@ -29,7 +29,7 @@ export const MinistriesInfo = [
   {
     id: 2,
     ministry: "Ghana Passport",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [
@@ -56,7 +56,7 @@ export const MinistriesInfo = [
   {
     id: 3,
     ministry: "Ghana Immigration Service",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [
@@ -83,7 +83,7 @@ export const MinistriesInfo = [
   {
     id: 4,
     ministry: "Ghana Revenue Authority",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [
@@ -110,7 +110,7 @@ export const MinistriesInfo = [
   {
     id: 5,
     ministry: "Registrar General's department",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [
@@ -137,7 +137,7 @@ export const MinistriesInfo = [
   {
     id: 6,
     ministry: "Food And Drugs Authority",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [
@@ -164,7 +164,7 @@ export const MinistriesInfo = [
   {
     id: 7,
     ministry: "Ministry of Chieftaincy and Religious Affairs",
-    logo: "",
+    logo: "favicon.png",
     office:
       "No. 5 Agostinho Neto Rd, Liberation Avenue, Airport Residential Area, Accra",
     operatingHours: [

@@ -24,7 +24,7 @@ const FeaturedService = ({ toggleTab }) => {
         {MinistriesInfo.slice(0, 3).map((item, index) => (
           <Link to={`/ministries/${item?.ministry}`} key={index}>
             <button className="w-full p-5 text-sm font-bold text-left border border-gray-200 shadow-sm md:p-8 md:text-lg  relative before:contents() before:h-full before:w-0 before:top-0 before:left-0 before:bg-yellow-400 before:absolute hover:before:w-1.5 overflow-hidden before:z-50">
-              <h4 className="px-10 sm:px-[1.8vw]">{item?.ministry}</h4>
+              <h4 className="px-10 sm:px-0 sm:text-center">{item?.ministry}</h4>
               {/* <img src="/images/adinkra1.png" alt="" className="absolute top-0 -left-14"/> */}
             </button>
           </Link>
@@ -39,8 +39,8 @@ const FeaturedService = ({ toggleTab }) => {
       >
          {MinistriesInfo.slice(3, 6).map((item, index) => (
           <Link to={`/ministries/${item?.ministry}`} key={index}>
-            <button className="w-full p-5 text-sm font-bold text-left border border-gray-200 shadow-sm md:p-8 md:text-lg  relative before:contents() before:h-full before:w-0 before:top-0 before:left-0 before:bg-yellow-400 before:absolute hover:before:w-1.5 overflow-hidden before:z-50">
-              <h4 className="px-10 sm:px-[1.8vw]">{item?.ministry}</h4>
+            <button className="w-full p-5 text-sm font-bold text-left border truncate border-gray-200 shadow-sm md:p-8 md:text-lg  relative before:contents() before:h-full before:w-0 before:top-0 before:left-0 before:bg-yellow-400 before:absolute hover:before:w-1.5 overflow-hidden before:z-50">
+              <h4 className="px-14 sm:px-0 sm:text-center">{item?.ministry}</h4>
               {/* <img src="/images/adinkra1.png" alt="" className="absolute top-0 -left-14"/> */}
             </button>
           </Link>

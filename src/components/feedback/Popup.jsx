@@ -17,7 +17,7 @@ const Popup = () => {
       {close && (
         <div
           // onClick={() => setClose(false)}
-          className="absolute top-0 left-0 z-50 w-full py-2 bg-black bg-opacity-50"
+          className="absolute top-0 left-0 z-50 w-full py-2 pb-24 bg-black bg-opacity-50"
         >
           <div
             className="relative grid w-full h-full px-5 py-20 mx-auto bg-white rounded sm:max-w-2xl sm:pt-20 lg:max-w-4xl sm:place-content-center sm:place-items-center"

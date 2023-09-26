@@ -18,12 +18,12 @@ const GiveFeedBack = () => {
          <div className="py-5">
            <h4>Add photos/videos <span className="text-gray-400 ">(Optional)</span></h4>
            <div className="relative grid grid-cols-2 gap-6 py-3 sm:grid-cols-4">
-              <span className="w-32 h-20 border">
+              <span className="h-24 border w-28">
                 <Upload />
               </span>
-              <span className="w-32 h-20 border">ffsfs</span>
-              <span className="w-32 h-20 border">ffsfs</span>
-              <span className="w-32 h-20 border">ffsfs</span>
+              <span className="h-24 border w-28">ffsfs</span>
+              <span className="h-24 border w-28">ffsfs</span>
+              <span className="h-24 border w-28">ffsfs</span>
            </div>
            <button className="w-full py-3 mt-5 bg-yellow-400">Next</button>
         </div>          
