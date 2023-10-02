@@ -35,6 +35,8 @@ const Service = () => {
       setLoading(false);
     }, 600);
   }, [filter]);
+
+  
   return (
     <div className="w-full pb-24 h-ful">
       <div className="p-3 bg-yellow-400 ">
@@ -89,6 +91,14 @@ const Service = () => {
               onChange={handleChange}
               bordered={false}
             >
+               <Select.Option value="Agency">
+                <button
+                  onClick={() => setfilter("Agency")}
+                  className="text-lg "
+                >
+                  Agency
+                </button>
+              </Select.Option>
               <Select.Option value="Ministry">
                 <button
                   onClick={() => setfilter("Ministry")}
@@ -97,14 +107,7 @@ const Service = () => {
                   Ministry
                 </button>
               </Select.Option>
-              <Select.Option value="Agency">
-                <button
-                  onClick={() => setfilter("Agency")}
-                  className="text-lg "
-                >
-                  Agency
-                </button>
-              </Select.Option>
+             
               <Select.Option value="Individual">
                 <button
                   onClick={() => setfilter("Individual")}
