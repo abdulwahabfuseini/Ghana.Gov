@@ -12,12 +12,11 @@ const Search = () => {
     <div className="absolute left-0 right-0 w-full px-5 sm:-bottom-7 -bottom-24">
       <form className="grid sm:grid-cols-2 lg:grid-cols-4 sm:mx-auto sm:bg-white sm:shadow-xl backdrop:none sm:w-[79vw] lg:w-[67vw] gap-y-2">
         <Select
-          className="h-20 col-span-1 bg-white shadow-md sm:shadow-sm"
-          defaultValue="Search for Gov't Agencies"
-          style={{ height: 61, fontSize: 25, textAlign: "left" }}
-          size="large"
-          onChange={handleChange}
-          bordered={false}
+        className="w-full h-20 bg-white shadow-md sm:col-span-1 sm:shadow-sm"
+         defaultValue="Search for Gov't Agencies"
+         style={{ height: 61, fontSize: 25, textAlign: "left" }}
+         onChange={handleChange}
+         bordered={false}
         >
           <Select.Option value="Search for Gov't Agencies">
             <button className="text-lg">Search for Gov't Agencies</button>

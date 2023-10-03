@@ -97,7 +97,6 @@ const GhanaGov = () => {
           className="w-full col-span-1 bg-white border-2 rounded-sm focus:border-blue-800"
           defaultValue="Overview"
           style={{ height: 61, fontSize: 25, textAlign: "left" }}
-         
           onChange={handleChange}
           bordered={false}
         >
