@@ -22,7 +22,7 @@ const Overview = () => {
               <p>President of the Republic of Ghana</p>
              </div>
             <div className='relative'>
-                <img src="/images/nana-addo.jpg" className='object-cover h-96 sm:h-full' alt="" />
+                <img src="/images/nana-addo.jpg" className='object-cover h-80 sm:h-full' alt="" />
                 <h4 className='absolute bottom-0 left-0 px-3 py-2 bg-white w-96'>President Nana Addo Dankwa Akuffo </h4>
             </div>
             <div className='pt-8'>

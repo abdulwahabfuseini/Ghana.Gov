@@ -5,13 +5,15 @@ import { MinistriesInfo } from "../../assets/Directory";
 
 const FeaturedService = ({ toggleTab }) => {
   return (
-    <div className="grid w-full max-w-6xl px-5 pt-40 pb-20 mx-auto sm:py-20 ">
+    <div className="grid w-full max-w-6xl px-5 pt-40 pb-20 mx-auto sm:py-20">
       <div className="w-full bg-white FlexBox">
         <h1 className="text-sm font-bold uppercase md:text-base">
           Featured Services
         </h1>
         <Link to="/search">
-          <button className="text-sm font-bold md:text-base hover:underline">VIEW MORE</button>
+          <button className="text-sm font-bold md:text-base hover:underline">
+            VIEW MORE
+          </button>
         </Link>
       </div>
       <div
@@ -24,7 +26,9 @@ const FeaturedService = ({ toggleTab }) => {
         {MinistriesInfo.slice(0, 3).map((item, index) => (
           <Link to={`/ministries/${item?.ministry}`} key={index}>
             <button className="w-full p-5 text-sm font-bold text-left border border-gray-200 shadow-sm md:p-8 md:text-lg  relative before:contents() before:h-full before:w-0 before:top-0 before:left-0 before:bg-yellow-400 before:absolute hover:before:w-1.5 overflow-hidden before:z-50">
-              <h4 className="px-10 sm:px-0 sm:text-center">{item?.ministry}</h4>
+              <h4 className="w-full pl-6 truncate sm:px-0 sm:text-center">
+                {item?.ministry}
+              </h4>
               {/* <img src="/images/adinkra1.png" alt="" className="absolute top-0 -left-14"/> */}
             </button>
           </Link>
@@ -37,10 +41,10 @@ const FeaturedService = ({ toggleTab }) => {
             : "hidden"
         }`}
       >
-         {MinistriesInfo.slice(3, 6).map((item, index) => (
+        {MinistriesInfo.slice(3, 6).map((item, index) => (
           <Link to={`/ministries/${item?.ministry}`} key={index}>
             <button className="w-full p-5 text-sm font-bold text-left border truncate border-gray-200 shadow-sm md:p-8 md:text-lg  relative before:contents() before:h-full before:w-0 before:top-0 before:left-0 before:bg-yellow-400 before:absolute hover:before:w-1.5 overflow-hidden before:z-50">
-              <h4 className="px-14 sm:px-0 sm:text-center">{item?.ministry}</h4>
+              <h4 className="pl-6 sm:px-0 sm:text-center">{item?.ministry}</h4>
               {/* <img src="/images/adinkra1.png" alt="" className="absolute top-0 -left-14"/> */}
             </button>
           </Link>

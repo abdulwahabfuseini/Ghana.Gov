@@ -11,7 +11,7 @@ const FeaturedCategories = ({ toggleTab }) => {
           <h1 className="text-sm font-bold uppercase sm:text-base">
             Featured Categories
           </h1>
-          <Link>
+          <Link to="/search">
             <button className="text-sm font-bold sm:text-base">VIEW ALL</button>
           </Link>
         </div>
